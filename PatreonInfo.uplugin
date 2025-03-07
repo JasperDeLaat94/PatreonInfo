@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 14,
+	"VersionName": "1.2.0",
+	"FriendlyName": "Patreon Information",
+	"Description": "This plugin provides the client-side functionality to obtain Patreon information for the user. Note that you also need server-side code in order communicate with the Patreon API.",
+	"Category": "Patreon",
+	"CreatedBy": "Jasper de Laat",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:nosupport@example.org",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "PatreonInfo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"BlacklistPlatforms": [
+				"IOS"
+			]
+		}
+	]
+}
